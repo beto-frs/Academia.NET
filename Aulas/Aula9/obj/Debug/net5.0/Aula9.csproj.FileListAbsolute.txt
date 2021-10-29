@@ -1,0 +1,16 @@
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\bin\Debug\net5.0\Aula9.exe
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\bin\Debug\net5.0\Aula9.deps.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\bin\Debug\net5.0\Aula9.runtimeconfig.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\bin\Debug\net5.0\Aula9.runtimeconfig.dev.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\bin\Debug\net5.0\Aula9.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\bin\Debug\net5.0\ref\Aula9.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\bin\Debug\net5.0\Aula9.pdb
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.csproj.AssemblyReference.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.AssemblyInfoInputs.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.AssemblyInfo.cs
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.csproj.CoreCompileInputs.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\ref\Aula9.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.pdb
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula9\obj\Debug\net5.0\Aula9.genruntimeconfig.cache

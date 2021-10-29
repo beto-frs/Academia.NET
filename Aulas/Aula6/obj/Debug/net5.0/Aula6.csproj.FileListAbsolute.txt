@@ -1,0 +1,16 @@
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\bin\Debug\net5.0\Aula6.exe
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\bin\Debug\net5.0\Aula6.deps.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\bin\Debug\net5.0\Aula6.runtimeconfig.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\bin\Debug\net5.0\Aula6.runtimeconfig.dev.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\bin\Debug\net5.0\Aula6.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\bin\Debug\net5.0\ref\Aula6.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\bin\Debug\net5.0\Aula6.pdb
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.csproj.AssemblyReference.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.AssemblyInfoInputs.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.AssemblyInfo.cs
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.csproj.CoreCompileInputs.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\ref\Aula6.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.pdb
+D:\PROJETOS\ACADEMIA .NET\Aulas\Aula6\obj\Debug\net5.0\Aula6.genruntimeconfig.cache
