@@ -9,13 +9,13 @@ Fazer um algoritmo que leia dez números inteiros armazenando-os em um vetor e a
 ```C#
 static void Ex1()
         {
-            int[] par = new int[10], impar = new int[10];
+            int[] par = new int[10], impar = new int[10], vetor = new int[10];
             int valor, countPar = 0, countImpar = 0;
             for (int i = 0; i < 10; i++)
             {
                 Random rand = new();
-                Write("Digite um o {0}º número: ", i + 1);
                 valor = rand.Next(1,10);
+                Write("Digite um  número: {0}\n", valor);
                 if (valor % 2 == 0)
                 {
                     par[countPar] = valor;
@@ -26,16 +26,31 @@ static void Ex1()
                     impar[countImpar] = valor;
                     countImpar += 1;
                 }
+                vetor[i] = valor;
             }
             WriteLine("\nDe todos os números digitados, {0} são pares e {1} são ímpares!\n", countPar, countImpar);
+            for (int i = 0; i < 10; i++)
+            {
+                Write(" {0} |", vetor[i]);
+            }
+            Write("\n\n");
+
             for (int i = 0; i < countPar; i++)
             {
-                Write(" {0} |", par[i]);
+                ForegroundColor = ConsoleColor.Green;
+                Write(" {0} ", par[i]);
+                ForegroundColor = ConsoleColor.White;
+                Write("|");
             }
             for (int i = 0; i < countImpar; i++)
             {
-                Write(" {0} |", impar[i]);
+                ForegroundColor = ConsoleColor.Red;
+                Write(" {0} ", impar[i]);
+                ForegroundColor = ConsoleColor.White;
+                Write("|");
             }
+            Write("\n\n");
+
         }
 ```
 
@@ -77,7 +92,8 @@ static void Ex2()
             {
                 Write("{0} | ", v2);
             }
-
+            Write("\n\n");
+		}
 ```
 
 
