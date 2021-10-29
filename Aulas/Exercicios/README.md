@@ -47,7 +47,36 @@ Escreva um algoritmo que leia um vetor inteiro de 20 posições. Crie um segundo
 
 Mostre os vetores lidos e o vetor resultado.
 
-```
+```C#
+static void Ex2()
+        {
+            int[] vetor = new int[20];
+            int[] segundoVetor = new int[20];
+            for (int i = 0; i < 20; i++)
+            {
+                Random rand = new();
+                vetor[i] = rand.Next(-1, 2);
+                Write("\nDigite um número: {0}", vetor[i]);
+                if (vetor[i] == 0)
+                {
+                    segundoVetor[i] = 2;
+                }
+                else
+                {
+                    segundoVetor[i] = vetor[i];
+                }
+            }
+            Write("\n======================================================================\n");
+            Write("\nVetor Inicial:\n");
+            foreach (int v1 in vetor)
+            {
+                Write("{0} | ", v1);
+            }
+            Write("\n\nVetor Resultado:\n");
+            foreach (int v2 in segundoVetor)
+            {
+                Write("{0} | ", v2);
+            }
 
 ```
 
