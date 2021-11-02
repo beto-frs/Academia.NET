@@ -1,0 +1,81 @@
+﻿@page "/fetchdata"
+
+
+
+<h1>Weather forecast</h1>
+
+
+<h4>Nada ainda</h4>
+
+
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (response != null)
+        {
+            @foreach (var item in response)
+            {
+                @foreach (var data in item.dados)
+                {
+                    <tr>
+                        <td>@data.dia</td>
+                        <td>@data.mes</td>
+
+                    </tr>
+                }
+
+            }
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+@code {
+
+    HttpRequestMessage requestMessage;
+    HttpResponseMessage responseMessage;
+    HttpClient htp;
+    List<Response> response;
+
+    protected override async Task OnInitializedAsync()
+    {
+        htp = new HttpClient();
+        requestMessage = new HttpRequestMessage
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri(@"https://data.metsul.com/api/v1/previsao/10dias/quadro_novo/São%20Paulo,SP")
+        };
+        responseMessage = await htp.SendAsync(requestMessage);
+        response = System.Text.Json.JsonSerializer.Deserialize<List<Response>>(await responseMessage.Content.ReadAsStringAsync());
+        foreach (var item in response)
+        {
+            response.Add(item);
+        }
+
+    }
+
+
+
+
+
+
+}
+
+
+
+

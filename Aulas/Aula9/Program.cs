@@ -9,7 +9,7 @@ namespace Aula9
         static void Main(string[] args)
         {
             Ex1();
-            Ex2();
+            //Ex2();
 
         }
 
@@ -34,7 +34,7 @@ namespace Aula9
             for (int i = 0; i < 10; i++)
             {
                 Random rand = new();
-                valor = rand.Next(1,10);
+                valor = rand.Next(1, 10);
                 Write("Digite um  número: {0}\n", valor);
                 if (valor % 2 == 0)
                 {
@@ -107,18 +107,30 @@ namespace Aula9
                 Write("{0} | ", v2);
             }
             Write("\n\n");
+        }
 
-
-
-
-
-
-
-
+        static void Ex3()
+        {
+            int[,] mat = new int[3, 4];
+            int i, j, soma = 0;
+            int[,] A = new int[3, 4];
+            for (i = 0; i < 3; i++) // Linha
+            {
+                for (j = 0; j < 4; j++) // coluna
+                {
+                    WriteLine("Digite o elemento A [{0} , {1}]:", i, j);
+                    mat[i, j] = int.Parse(ReadLine());
+                }
+                WriteLine();
+                soma += mat[i, j];
+            }
+            //mat.Lenght
 
 
 
         }
+
+
 
 
 

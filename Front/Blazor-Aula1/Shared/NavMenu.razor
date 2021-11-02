@@ -1,5 +1,6 @@
 ﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">Blazor-Aula1</a>
+    <img src="img/triade.png" width="70px"><br>
+    <a class="navbar-brand" href="">Tríade do Front</a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -7,7 +8,7 @@
 
 <div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
     <ul class="nav flex-column">
-        <li class="nav-item px-3">
+        <!-- <li class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="oi oi-home" aria-hidden="true"></span> Home
             </NavLink>
@@ -20,6 +21,21 @@
         <li class="nav-item px-3">
             <NavLink class="nav-link" href="fetchdata">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </li>-->
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="html">
+                <span class="oi oi-book" aria-hidden="true"></span> HTML
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="css">
+                <span class="oi oi-book" aria-hidden="true"></span> CSS
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="javascript">
+                <span class="oi oi-book" aria-hidden="true"></span> JavaScript
             </NavLink>
         </li>
     </ul>

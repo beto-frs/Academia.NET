@@ -1,0 +1,16 @@
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\bin\Debug\net5.0\Desafio2.exe
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\bin\Debug\net5.0\Desafio2.deps.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\bin\Debug\net5.0\Desafio2.runtimeconfig.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\bin\Debug\net5.0\Desafio2.runtimeconfig.dev.json
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\bin\Debug\net5.0\Desafio2.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\bin\Debug\net5.0\ref\Desafio2.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\bin\Debug\net5.0\Desafio2.pdb
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.csproj.AssemblyReference.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.AssemblyInfoInputs.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.AssemblyInfo.cs
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.csproj.CoreCompileInputs.cache
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\ref\Desafio2.dll
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.pdb
+D:\PROJETOS\ACADEMIA .NET\Aulas\Desafios\Desafio2\obj\Debug\net5.0\Desafio2.genruntimeconfig.cache
