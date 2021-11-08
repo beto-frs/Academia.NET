@@ -2,7 +2,7 @@
 
 # API TESTE - UFN .NET
 
-![](D:\PROJETOS\ACADEMIA .NET\img\APIs.png)
+![](https://raw.githubusercontent.com/beto-frs/Academia.NET/develop/img/APIs.png)
 
 Link da documentação >> [Link](https://roberto-silva-outsystems.outsystemscloud.com/API_UFN/rest/v1/)
 
