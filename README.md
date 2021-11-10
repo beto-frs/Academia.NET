@@ -26,9 +26,9 @@
 - [x] *Operadores aritméticos, lógicos e relacionais;* 
 - [x] *Álgebra booleana;*     
 - [x] *Estruturas de controle e repetição;* 
-- [ ] *Tipos de dados compostos (Vetores e  matrizes);* 
-- [ ] *Funções e procedimentos;* 
-- [ ] *Exercícios práticos envolvendo o conteúdo abordado;* 
+- [x] *Tipos de dados compostos (Vetores e  matrizes);* 
+- [x] *Funções e procedimentos;* 
+- [x] *Exercícios práticos envolvendo o conteúdo abordado;* 
 - [ ] *Tipos Abstratos de Dados;* 
 - [ ] *Definição de estrutura abstrata;* 
 - [ ] *Pré e pós condições;* 
@@ -44,13 +44,13 @@
 - [ ] *Criação de Trigger e Procedures;* 
 - [ ] *Transações, Schedules e Jobs;* 
 - [ ] *PLSQL, packages;*     
-- [ ] *HTML, CSS e Javascript;* 
-- [ ] *JQuery e Frameworks JS;* 
+- [x] *HTML, CSS e Javascript;* 
+- [x] *JQuery e Frameworks JS;* 
 - [ ] *Microsoft .NET WebForms,  eventos e componentes;* 
 - [ ] *Acesso a Dados com ADO.Net;* 
 - [ ] *Arquitetura do ADO.Net;*  
 - [ ] *NameSpace System.Data;* 
-- [ ] *Conexões com Bancos de Dados;* 
+- [x] *Conexões com Bancos de Dados;* 
 - [ ] *Controle de Transações; Execução de comandos SQL e procedimentos armazenados;*     
 - [ ] *Manipulação de dados com Connection, DataReader, DataSet e DataAdapter;*     
 - [ ] *Leitura e gravação dados usando arquivos de entrada/saída e streams;*     
