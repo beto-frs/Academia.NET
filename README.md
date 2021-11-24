@@ -40,9 +40,9 @@
 - [ ] *Criação de classes, definição e implementação interfaces e criação e uso coleções genéricas;* 
 - [ ] *Herança para criar uma hierarquia de classe, estender uma classe do .NET Framework, criar métodos  e classes genéricas;* 
 - [ ] *Modelagem de dados;* 
-- [ ] *SQL: Comandos DML e DDL;* 
-- [ ] *Criação de Trigger e Procedures;* 
-- [ ] *Transações, Schedules e Jobs;* 
+- [x] *SQL: Comandos DML e DDL;* 
+- [x] *Criação de Trigger e Procedures;* 
+- [x] *Transações, Schedules e Jobs;* 
 - [ ] *PLSQL, packages;*     
 - [x] *HTML, CSS e Javascript;* 
 - [x] *JQuery e Frameworks JS;* 
@@ -51,7 +51,7 @@
 - [ ] *Arquitetura do ADO.Net;*  
 - [ ] *NameSpace System.Data;* 
 - [x] *Conexões com Bancos de Dados;* 
-- [ ] *Controle de Transações; Execução de comandos SQL e procedimentos armazenados;*     
+- [x] *Controle de Transações; Execução de comandos SQL e procedimentos armazenados;*     
 - [ ] *Manipulação de dados com Connection, DataReader, DataSet e DataAdapter;*     
 - [ ] *Leitura e gravação dados usando arquivos de entrada/saída e streams;*     
 - [ ] *Serializar e desserializar dados em diferentes formatos;* 
@@ -64,7 +64,7 @@
 - [ ] *Criar Views em uma aplicação MVC para exibir e editar dados e interagir com Modelos e Controladores;* 
 - [ ] *Executar testes e ferramentas de depuração contra  uma aplicação web no Visual Studio e configurar um aplicativo para solução de problemas;* 
 - [ ] *Aplicações web que usam o mecanismo de roteamento do ASP.NET para apresentar URLs amigáveis;* 
-- [ ] *JavaScript que no cliente e utiliza a biblioteca de script jQuery para otimizar a capacidade de resposta de uma aplicação web MVC;* 
+- [x] *JavaScript que no cliente e utiliza a biblioteca de script jQuery para otimizar a capacidade de resposta de uma aplicação web MVC;* 
 - [ ] *Projeto de implementação de um sistema completo de usuários autorizados em uma aplicação web MVC;* 
 - [ ] *Construir uma aplicação MVC que resiste a ataques maliciosos e assegura as informações de usuários e  suas preferências;* 
 - [ ] *Design Patterns;* 
