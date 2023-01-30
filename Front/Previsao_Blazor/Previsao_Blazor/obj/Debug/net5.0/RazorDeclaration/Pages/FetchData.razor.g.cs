@@ -90,20 +90,13 @@ using Refit;
 #nullable disable
 #nullable restore
 #line 12 "D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\_Imports.razor"
-using Newtonsoft.Json;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 13 "D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\_Imports.razor"
 using System.Threading.Tasks;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\_Imports.razor"
+#line 13 "D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\_Imports.razor"
 using System.Text.Json;
 
 #line default

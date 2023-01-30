@@ -1,0 +1,12 @@
+﻿@model AulaMVCEF.Models.PessoaModel
+@{
+    
+
+}
+
+<h2>Nome da pessoa é @Model.Nome</h2><br />
+
+@foreach (var item in @Model.Emails)
+{
+    @item.email
+}

@@ -1,0 +1,18 @@
+﻿@using AulaMVCEF.Models;
+
+@model AulaMVCEF.Models.PessoaModel
+
+
+@{
+
+}
+
+@using (Html.BeginForm("Cadastrar", "Home", FormMethod.Post))
+{
+    @Html.DisplayNameFor(p => p.Nome)
+    <br />
+    @Html.TextBoxFor(p => p.Nome)
+    <br />
+    <br />
+    <input type="submit" value="Cadastrar" >
+}

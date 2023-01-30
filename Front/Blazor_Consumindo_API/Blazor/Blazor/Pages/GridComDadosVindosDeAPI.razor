@@ -1,0 +1,116 @@
+﻿@page "/previsao"
+
+@using Newtonsoft.Json
+@using Newtonsoft.Json.Serialization
+
+
+@inject NavigationManager NavigationManager
+
+<h1>Dados da tabela vieram de API REST</h1>
+
+@if (dtoObjeto == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>o</td>
+                    </tr>
+                }
+
+            }
+        </tbody>
+    </table>
+
+    <br />
+
+   
+
+    <br />
+    <br />
+}
+
+@code {
+
+
+    Principal principal = new Principal();
+
+    public string resultafinal;
+
+    public List<Principal> dtoObjeto = new List<Principal>();
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        dtoObjeto = principal.PegarRetornoDaAPI();
+    }
+
+    public class Principal
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public int Quantidade { get; set; }
+        public string Descricao { get; set; }
+        public string Data_Armazenado { get; set; }
+        public double Valor { get; set; }
+
+
+        public List<Principal> PegarRetornoDaAPI()
+        {
+            /*
+            Principal principal = new Principal();
+
+            string[] testeArray = new string[9999];
+
+            HttpClient cliente = new HttpClient();
+            List<Principal> testeResultado = new List<Principal>();
+
+
+
+            cliente.BaseAddress = new Uri("https://roberto-silva-outsystems.outsystemscloud.com/");
+
+            HttpResponseMessage resposta = cliente.GetAsync("/API_UFN/rest/v1/produto?search=").Result;
+
+            var stringRetornoDaApi = resposta.Content.ReadAsStringAsync().Result.ToString();
+
+            final = stringRetornoDaApi;
+
+            var testeSerializer = JsonConvert.SerializeObject(stringRetornoDaApi);
+
+
+            testeResultado = JsonConvert.DeserializeObject<List<Principal>>(stringRetornoDaApi);
+
+            List<Principal> retornoDaAPI = JsonConvert.DeserializeObject<List<Principal>>(testeSerializer);
+
+
+
+            return retornoDaAPI;*/
+
+            HttpClient cliente = new HttpClient();
+            List<Principal> testeResultado = new List<Principal>();
+            cliente.BaseAddress = new Uri("https://data.metsul.com/");
+            HttpResponseMessage resposta = cliente.GetAsync("/api/v1/previsao/10dias/quadro_novo/São%20Paulo,SP").Result;
+            string stringRetornoDaApi = resposta.Content.ReadAsStringAsync().Result.ToString();
+            string testeSerializer = JsonConvert.SerializeObject(stringRetornoDaApi);
+            //testeResultado = JsonConvert.DeserializeObject<List<Principal>>(stringRetornoDaApi);
+            //List<Principal> retornoDaAPI = JsonConvert.DeserializeObject<List<Principal>>(stringRetornoDaApi);
+            List<Principal> retornoDaAPI = JsonConvert.DeserializeAnonymousType<List<Principal>>(stringRetornoDaApi, JsonConvert.DeserializeObject<List<Principal>>(stringRetornoDaApi));
+            return retornoDaAPI;
+
+        }
+    }
+}
