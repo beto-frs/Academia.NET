@@ -1,0 +1,20 @@
+﻿@model List<AulaMVCEF.Models.PessoaModel>
+
+
+@{
+    
+
+}
+
+@foreach (var pessoa in @Model)
+{
+    <a href="@Url.Action($"PessoaId","Home")">
+    <strong>@pessoa.Nome</strong><br />
+    </a>
+
+    @foreach (var email in @pessoa.Emails)
+    {
+        <strong>@email.email</strong><br />
+    }
+    <br />
+}

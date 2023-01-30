@@ -630,11 +630,8 @@ D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\obj\Debug\net5.0
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\obj\Debug\net5.0\Previsao_Blazor.pdb
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\obj\Debug\net5.0\serviceworkers\wwwroot\service-worker.js
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\obj\Debug\net5.0\service-worker-assets.js
-D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\bin\Debug\net5.0\wwwroot\_framework\Refit.dll.gz
-D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\bin\Debug\net5.0\wwwroot\_framework\Refit.dll
-D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\obj\Debug\net5.0\build-gz\8fOW+dIT.gz
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\obj\Debug\net5.0\build-gz\8BcSTmsw.gz
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.11.js.gz
 D:\PROJETOS\ACADEMIA .NET\Front\Previsao_Blazor\Previsao_Blazor\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.11.js

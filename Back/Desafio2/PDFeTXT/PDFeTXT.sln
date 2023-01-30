@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFeTXT", "PDFeTXT.csproj", "{9D11C485-F84D-4250-B9CE-83A151D8A433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D11C485-F84D-4250-B9CE-83A151D8A433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D11C485-F84D-4250-B9CE-83A151D8A433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D11C485-F84D-4250-B9CE-83A151D8A433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D11C485-F84D-4250-B9CE-83A151D8A433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08383DB3-2692-4DA9-828B-2E3178A1A4A0}
+	EndGlobalSection
+EndGlobal

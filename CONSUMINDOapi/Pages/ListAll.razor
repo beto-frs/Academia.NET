@@ -1,0 +1,71 @@
+﻿@page "/list"
+@using CONSUMINDOapi.Models
+@using RestSharp
+@using System.Text.Json
+@using System.Threading
+
+
+@inject CONSUMINDOapi.Services.APIService apiService
+@inject NavigationManager NavigationManager
+
+
+<h3>ListAll</h3>
+
+
+@if (pessoas == null)
+{
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border text-secondary" style="width: 8rem; height: 8rem;" role="status">
+        </div>
+    </div>
+}
+else
+{
+    <div>
+        <table class="table table-hover">
+            <thead class="bg-light">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nome</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in pessoas)
+                {
+                    <tr>
+                        <td><h6>@user.Id</h6></td>
+                        <td><h6>@user.Nome</h6></td>
+                        <td>
+                            <a href="/viewusuario/@user.Id" class="btn btn-success btn-sm">Visualizar</a>
+
+                            <a href="/deleteusuario/@user.Nome" class="btn btn-danger btn-sm">Excluir</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+
+
+
+
+
+
+
+@code {
+    List<PessoaModel> pessoas;
+
+    
+
+    PessoaModel pessoa = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        pessoas = await apiService.Listar();
+    }
+
+    
+
+}
